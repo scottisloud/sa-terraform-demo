@@ -87,7 +87,7 @@ resource "onepassword_item" "demo_sections" {
 }
 
 # Retrieves the password value from Demo Terraform Login item, creates a new login item using that password as the username.
-# Uncomment the code below and re-run terraform apply to create the new item. terraform destroy as usual will delete the 5 items. Make sure to comment this code out again before your next demo
+# Uncomment the code below and re-run terraform apply to create the new item. terraform destroy as usual will delete the 5 items. Make sure to comment this code out again before your next demo!
 
 /*
 data "onepassword_item" "get_pass_example" {
