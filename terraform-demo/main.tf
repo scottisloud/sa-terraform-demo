@@ -83,12 +83,6 @@ resource "onepassword_item" "demo_sections" {
       label = "User"
       value = "demo"
     }
-    
-    field {
-      label = "one-time password"
-      type = "OTP"
-      value = "NKD3YNEYD76CBAHILV4KTHGKUJWZ25ULUGETAB3ZINLZZDOVWATMYSD2HETDWVYE"
-    }
   }
 }
 
