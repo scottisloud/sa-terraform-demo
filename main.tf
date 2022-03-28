@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "onepassword" {
-  url = "http://localhost:8080"
+  url = "https://connect.bluemountainsit.com"
 }
 
 resource "onepassword_item" "demo_password" {
